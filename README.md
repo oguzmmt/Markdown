@@ -3,6 +3,18 @@
  1. Markdown, biçimlendirme öğeleri eklemenize olanak tanıyan bir işaretleme dilidir.
  2. Markdown sadece teknik yazılar için değil, genel olarak her türlü yazı için son derece kullanışlıdır.
 
+## İçindekiler
+- [Başlık](#başlık)
+- [Listeler](#listeler)
+- [Vurgulama](#vurgulama)
+- [Kod](#kod)
+- [Bağlantılar](#bağlantılar)
+- [Blok Alıntılar](#blok-alıntılar)
+- [Görsel Ekleme](#görsel-ekleme)
+- [E-postalar](#e-postalar)
+- [Tablo](#tablo)
+- [HTML](#html)
+
 ## Markdown Örnekleri
 
 1. **Başlık**
