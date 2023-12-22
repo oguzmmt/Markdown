@@ -145,10 +145,35 @@ Yukarıdaki kod, Markdown'da üç arka üst üste ters tırnak (```) kullanılar
 
 
 5. **Bağlantılar**
-   
-    -Bir bağlantıyı eklemek için yapılması gereken
+ Markdown'da bağlantı içi link vermek için aşağıdaki yöntemleri kullanabilirsiniz:
 
-   `[Bağlantı metni](Bağlantı URL'si)`
+1. **Bağlantı Adresini Doğrudan Kullanma:**
+   ```markdown
+   [Bağlantı Metni](http://www.example.com)
+   ```
+   Burada "Bağlantı Metni" kullanıcıya görünen metni temsil eder ve parantez içindeki URL, bağlantının hedef adresini belirtir.
+
+2. **Bağlantıya Başlık Eklemek:**
+   ```markdown
+   [Bağlantı Metni](http://www.example.com "Bağlantı Başlığı")
+   ```
+   İkinci tırnak içindeki "Bağlantı Başlığı", fare üzerine gelindiğinde görünen bir açıklamadır. Bu, bağlantının amacını daha ayrıntılı bir şekilde açıklamanıza olanak tanır.
+
+3. **Bağlantı Adresini Referans ile Kullanma:**
+   ```markdown
+   [Bağlantı Metni][1]
+
+   [1]: http://www.example.com
+   ```
+   Bu yöntemde, bağlantı metni içinde kullanılan `[1]` ifadesi, daha sonra belirtilen gerçek bağlantı adresini temsil eder. Bu, özellikle aynı bağlantıyı birden çok kez kullanmanız durumunda faydalıdır.
+
+4. **Bağlantıya İç Sayfa Bağlantısı Ekleme:**
+   ```markdown
+   [Bağlantı Metni](#ic-sayfa-baglantisi)
+   ```
+   Sayfanın içindeki bir bölüme bağlantı vermek için, bağlantı metni içinde kullanılan `#ic-sayfa-baglantisi` ifadesi, belirtilen iç sayfa bölümüne yönlendirir. Buradaki "ic-sayfa-baglantisi" kısmını hedeflediğiniz başlığın ID'si ile değiştirebilirsiniz.
+
+Bu örnekler, Markdown'da bağlantı içi linkler oluşturmanın temel yollarını göstermektedir. İlgili bağlantıyı tıkladığınızda, tarayıcı kullanıcıyı belirtilen adrese yönlendirecektir.
 
 6. **Blok Alıntılar**
 
