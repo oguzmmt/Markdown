@@ -20,7 +20,7 @@
 
 ## Markdown Örnekleri
 
-1. **Başlık** [Başlık](#başlık)
+1. **Başlık** 
     * Başlıklar, içerikleri bölümler halinde düzenlemek için kullanılır. En büyüğü h1 ve en küçüğü h6 olmak üzere h1'den h6'ya kadar 6 seviye vardır. Normalde, tüm dosyanızda yalnızca bir h1 başlığı olmalıdır, bu da belgenin başlığıdır. 
 
     * Bir başlık # ile başlar. sayısı başlık seviyesini gösterir, örneğin;
@@ -34,7 +34,7 @@
 ######h6
 ```
 
-2. **Listeler** [Listeler](#listeler)
+2. **Listeler**
    
      *İki tür liste vardır - sıralı ve sırasız.
      *Sırasız bir liste oluşturmak için, Örnek
@@ -114,7 +114,7 @@ Listeler birden fazla seviyede iç içe de yerleştirilebilir.
 
   
 
-3. **Vurgulama** [Vurgulama](#vurgulama)
+3. **Vurgulama** 
 
 ```
 **Kalın yap** kalın yapacaktır
@@ -151,7 +151,7 @@ Yukarıdaki kod, Markdown'da üç arka üst üste ters tırnak (```) kullanılar
 
 
 
-5. **Bağlantılar** [Bağlantılar](#bağlantılar)
+5. **Bağlantılar** 
  Markdown'da bağlantı içi link vermek için aşağıdaki yöntemleri kullanabilirsiniz:
 
    1. **Bağlantı Adresini Doğrudan Kullanma:**
@@ -183,7 +183,7 @@ Yukarıdaki kod, Markdown'da üç arka üst üste ters tırnak (```) kullanılar
 
 
 
-6. **Blok Alıntılar** [Blok Alıntılar](#blok-alıntılar)
+6. **Blok Alıntılar** 
 
     `> Bu bir blok alıntı örneğidir. Bu metin alıntı yapılmış bir bölümü temsil eder. `
 
@@ -203,11 +203,11 @@ Yukarıdaki kod, Markdown'da üç arka üst üste ters tırnak (```) kullanılar
         > Blok alıntılar birden fazla satırdan oluşabilir.
         
 
-7. **Görsel ekleme** [Görsel Ekleme](#görsel-ekleme)
+7. **Görsel ekleme** 
    
        -![Metin](görsel URL)
 
-9. **Tablo** [Tablo](#tablo)
+9. **Tablo** 
  ```
 | Başlık 1 | Başlık 2 | Başlık 3 |
 | -------- | ------- | ------- |
@@ -227,7 +227,7 @@ Diğer satırlar ise tablo hücrelerini içerir.
 | Portakal | 5      | 20  |
 
 
-9. **E-postalar** [E-postalar](#e-postalar)
+9. **E-postalar** 
 
    
 E-postanızı <> içine koyun ve birisi bağlantıya tıkladığında varsayılan e-posta uygulaması başlatılacaktır.
@@ -238,7 +238,7 @@ E-postanızı <> içine koyun ve birisi bağlantıya tıkladığında varsayıla
 
 <js@example.com>
 
-10. **HTML** [HTML](#html)
+10. **HTML** 
    
 Markdown dosyalarında ayrıca HTML etiketlerini kullanabilirsiniz ve bunlar HTML kurallarına göre işlenir.
 
