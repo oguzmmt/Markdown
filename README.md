@@ -15,9 +15,12 @@
 - [Tablo](#tablo)
 - [HTML](#html)
 
+
+
+
 ## Markdown Örnekleri
 
-1. **Başlık**
+1. **Başlık** #başlık
     * Başlıklar, içerikleri bölümler halinde düzenlemek için kullanılır. En büyüğü h1 ve en küçüğü h6 olmak üzere h1'den h6'ya kadar 6 seviye vardır. Normalde, tüm dosyanızda yalnızca bir h1 başlığı olmalıdır, bu da belgenin başlığıdır. 
 
     * Bir başlık # ile başlar. sayısı başlık seviyesini gösterir, örneğin;
@@ -107,6 +110,8 @@ Listeler birden fazla seviyede iç içe de yerleştirilebilir.
     1. liste 2.2
   
 
+
+
   
 
 3. **Vurgulama**
@@ -144,22 +149,24 @@ Yukarıdaki kod, Markdown'da üç arka üst üste ters tırnak (```) kullanılar
 ```
 
 
-5. **Bağlantılar**
+
+
+5. **Bağlantılar** #bağlantılar
  Markdown'da bağlantı içi link vermek için aşağıdaki yöntemleri kullanabilirsiniz:
 
-1. **Bağlantı Adresini Doğrudan Kullanma:**
+   1. **Bağlantı Adresini Doğrudan Kullanma:**
    ```markdown
    [Bağlantı Metni](http://www.example.com)
    ```
    Burada "Bağlantı Metni" kullanıcıya görünen metni temsil eder ve parantez içindeki URL, bağlantının hedef adresini belirtir.
 
-2. **Bağlantıya Başlık Eklemek:**
+   2. **Bağlantıya Başlık Eklemek:**
    ```markdown
    [Bağlantı Metni](http://www.example.com "Bağlantı Başlığı")
    ```
    İkinci tırnak içindeki "Bağlantı Başlığı", fare üzerine gelindiğinde görünen bir açıklamadır. Bu, bağlantının amacını daha ayrıntılı bir şekilde açıklamanıza olanak tanır.
 
-3. **Bağlantı Adresini Referans ile Kullanma:**
+   3. **Bağlantı Adresini Referans ile Kullanma:**
    ```markdown
    [Bağlantı Metni][1]
 
@@ -167,13 +174,14 @@ Yukarıdaki kod, Markdown'da üç arka üst üste ters tırnak (```) kullanılar
    ```
    Bu yöntemde, bağlantı metni içinde kullanılan `[1]` ifadesi, daha sonra belirtilen gerçek bağlantı adresini temsil eder. Bu, özellikle aynı bağlantıyı birden çok kez kullanmanız durumunda faydalıdır.
 
-4. **Bağlantıya İç Sayfa Bağlantısı Ekleme:**
+   4. **Bağlantıya İç Sayfa Bağlantısı Ekleme:**
    ```markdown
    [Bağlantı Metni](#ic-sayfa-baglantisi)
    ```
    Sayfanın içindeki bir bölüme bağlantı vermek için, bağlantı metni içinde kullanılan `#ic-sayfa-baglantisi` ifadesi, belirtilen iç sayfa bölümüne yönlendirir. Buradaki "ic-sayfa-baglantisi" kısmını hedeflediğiniz başlığın ID'si ile değiştirebilirsiniz.
 
-Bu örnekler, Markdown'da bağlantı içi linkler oluşturmanın temel yollarını göstermektedir. İlgili bağlantıyı tıkladığınızda, tarayıcı kullanıcıyı belirtilen adrese yönlendirecektir.
+
+
 
 6. **Blok Alıntılar**
 
