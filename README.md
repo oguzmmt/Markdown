@@ -21,6 +21,9 @@
 
 ## Markdown Örnekleri
 
+
+
+
 1. **Başlık** 
     * Başlıklar, içerikleri bölümler halinde düzenlemek için kullanılır. En büyüğü h1 ve en küçüğü h6 olmak üzere h1'den h6'ya kadar 6 seviye vardır. Normalde, tüm dosyanızda yalnızca bir h1 başlığı olmalıdır, bu da belgenin başlığıdır. 
 
@@ -155,19 +158,19 @@ Yukarıdaki kod, Markdown'da üç arka üst üste ters tırnak (```) kullanılar
 5. **Bağlantılar** 
  Markdown'da bağlantı içi link vermek için aşağıdaki yöntemleri kullanabilirsiniz:
 
-   1. **Bağlantı Adresini Doğrudan Kullanma:**
+   - **Bağlantı Adresini Doğrudan Kullanma:**
    ```markdown
    [Bağlantı Metni](http://www.example.com)
    ```
    Burada "Bağlantı Metni" kullanıcıya görünen metni temsil eder ve parantez içindeki URL, bağlantının hedef adresini belirtir.
 
-   2. **Bağlantıya Başlık Eklemek:**
+   - **Bağlantıya Başlık Eklemek:**
    ```markdown
    [Bağlantı Metni](http://www.example.com "Bağlantı Başlığı")
    ```
    İkinci tırnak içindeki "Bağlantı Başlığı", fare üzerine gelindiğinde görünen bir açıklamadır. Bu, bağlantının amacını daha ayrıntılı bir şekilde açıklamanıza olanak tanır.
 
-   3. **Bağlantı Adresini Referans ile Kullanma:**
+   - **Bağlantı Adresini Referans ile Kullanma:**
    ```markdown
    [Bağlantı Metni][1]
 
@@ -175,7 +178,7 @@ Yukarıdaki kod, Markdown'da üç arka üst üste ters tırnak (```) kullanılar
    ```
    Bu yöntemde, bağlantı metni içinde kullanılan `[1]` ifadesi, daha sonra belirtilen gerçek bağlantı adresini temsil eder. Bu, özellikle aynı bağlantıyı birden çok kez kullanmanız durumunda faydalıdır.
 
-   4. **Bağlantıya İç Sayfa Bağlantısı Ekleme:**
+   - **Bağlantıya İç Sayfa Bağlantısı Ekleme:**
    ```markdown
    [Bağlantı Metni](#ic-sayfa-baglantisi)
    ```
