@@ -4,6 +4,7 @@
  2. Markdown sadece teknik yazılar için değil, genel olarak her türlü yazı için son derece kullanışlıdır.
 
 ## İçindekiler
+
 - [Başlık](#başlık)
 - [Listeler](#listeler)
 - [Vurgulama](#vurgulama)
